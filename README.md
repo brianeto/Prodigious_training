@@ -7,7 +7,7 @@ Estas son las indicaciones necesarias para la ejecución del proyecto:
 2. Despues de que estemos posicionados en la carpeta, insertamos en la consola el siguiente comando para clonar el proyecto:
 
         git clone https://github.com/brianeto/Prodigious_training.git
-3. Despues de que hayan cargado correctamente los archivos del repositorio, a continuación escribimos en la consola o la terminal el comando
+3. Despues de que hayan cargado correctamente los archivos del repositorio, a continuación nos dirigimos a la carpeta `Prodigious_training` y escribimos en la consola o la terminal el comando
 
         nodemon
     Para iniciar nuestro servidor local. Debe aparecer `now listening for request` cuando ya este preparado el servidor.
