@@ -14,7 +14,7 @@ Estas son las indicaciones necesarias para la ejecución del proyecto:
 4. Luego abrimos el navegador, nos dirigimos a la parte superior y en la barra de navegacion ponemos la Url en donde se encuentra alojado nuestro servidor, en este caso es: `localhost:4000`
 
 
-!(https://raw.githubusercontent.com/brianeto/Prodigious_training/master/public/images/firstr.png)
+![URL](https://raw.githubusercontent.com/brianeto/Prodigious_training/master/public/images/firstr.png)
 
 5. Podemos ingresar a distintas Urls para obtener diferentes contenidos, entre estos estan:
 - Archivo XML: `localhost:4000/api/xmltest`
