@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SEO SERVICE</title>
+	<link rel="stylesheet" type="text/css" href="/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans" rel="stylesheet">
+</head>
+<body>
+	<div id="homepage">
+		<div id="company">
+			<h1 class="title">SEO SERVICE</h1>
+		</div>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.js"></script>
+	<script src="https://unpkg.com/react@15.3.1/dist/react.min.js"></script>
+	<script src="https://unpkg.com/react-dom@15.3.1/dist/react-dom.min.js"></script>
+
+	<script type="text/babel">
+	var Companies = React.createClass({
+		render:function(){
+			return(
+				<div id="comp-container">
+					<form id="search" onSubmit={this.handleSubmit}>
+						<label>
+							Enter your Url:
+						</label>
+						<input type="text" ref="url" required/>
+						<label>
+							Enter your email:
+						</label>
+						<input type="text" ref="email" required/>
+						<input type="submit" value="Sumbit"/>
+					</form>
+				</div>
+			);
+		},
+
+		handleSubmit:function(e){
+			e.preventDefault();
+			var url = this.refs.url.value;
+			var email = this.refs.email.vaule;
+		}
+	});
+
+
+
+	</script>
+</body>
+</html>

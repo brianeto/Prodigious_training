@@ -1,0 +1,26 @@
+body{
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #555;
+	margin: 10px 30px;
+}
+#homepage {
+	max-width: 800px;
+	margin: 60px auto;
+	padding: 10px 20px;
+}
+input[type="text"]{
+	display: block;
+	width: 300px;
+	margin: 20px 0;
+	padding: 10px;
+	border-radius: 4px;
+}
+input[type="submit"]{
+	display: block;
+	padding: 5px 10px;
+	border-radius: 4px;
+	cursor:pointer;
+}
+input[type="submit"].false{
+	display: none;
+}
