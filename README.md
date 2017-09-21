@@ -10,7 +10,7 @@ Estas son las indicaciones necesarias para la ejecución del proyecto:
 3. Despues de que hayan cargado correctamente los archivos del repositorio, a continuación nos dirigimos a la carpeta `Prodigious_training` y escribimos en la consola o la terminal el comando
 
         nodemon
-    Para iniciar nuestro servidor local. Debe aparecer `now listening for request` cuando ya este preparado el servidor.
+    Para iniciar nuestro servidor local. Debe aparecer en nuestra terminal `now listening for request` cuando ya este preparado el servidor.
 4. Luego abrimos el navegador, nos dirigimos a la parte superior y en la barra de navegacion ponemos la Url en donde se encuentra alojado nuestro servidor, en este caso es: `localhost:4000`
 
 
