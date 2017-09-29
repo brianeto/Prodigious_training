@@ -3,12 +3,19 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 // set up express app
 const app = express();
+var companies = [];
+
 
 // connect to Mongodb
 mongoose.connect('mongodb://localhost/mvpseodatabase');
 mongoose.Promise = global.Promise;
 
+app.set('views', 'public')
+app.set('view engine','jade')
 
+app.get('/', function(req, res){
+  res.render('index')
+})
 
 
 app.use(express.static("public"));
