@@ -22,11 +22,14 @@ router.get('/jsontest', function(req, res){
 router.get('/imgtest', function(req, res){
   res.type('jpeg').sendFile(path.join(__dirname, '../public/images/skull.jpg'));
 });
-router.post('/companies',function(req,res){
-  res.send({type:'POST'});
+router.post('/posting',function(req,res){
+  res.type('jpeg').sendFile(path.join(__dirname, '../public/images/post.png'));
 });
-router.put('/companies/:id', function(req, res){
-  res.send({type:'PUT'});
+router.put('/putting', function(req, res){
+  res.type('jpeg').sendFile(path.join(__dirname, '../public/images/zombie.jpg'));
+});
+router.delete('/deleting', function(req, res){
+  res.type('jpeg').sendFile(path.join(__dirname, '../public/images/delete.jpg'));
 });
 
 /* router.post('/whatever', function (req, res, next) {
